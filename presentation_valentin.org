@@ -1,12 +1,13 @@
 #+TITLE: "Dissecting the Social" by Peter Hedstrom.
 #+AUTHOR: Review by Valentin Vergara
-#+DATE: CSS610.
+#+DATE: CSS610. April, 2019.
 
 #+REVEAL_ROOT: file:./reveal.js/
 #+OPTIONS: reveal_center:t reveal_progress:t reveal_history:t reveal_control:t
 #+OPTIONS: reveal_mathjax:t reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
 #+OPTIONS: reveal_width:1200 reveal_height:800
-#+OPTIONS: toc:nil
+#+OPTIONS: toc:nil timestamp:nil
+#+REVEAL_TITLE_SLIDE: <h1>%t</h1><h2>%a</h2>
 
 
 
