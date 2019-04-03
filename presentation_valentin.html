@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>"Dissecting the Social" by Peter Hedstrom.</title>
+<meta name="author" content="(Review by Valentin Vergara)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="file:./reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="file:./reveal.js/css/theme/solarized.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'file:./reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">"Dissecting the Social" by Peter Hedstrom.</h1><h2 class="author">Review by Valentin Vergara</h2><h2 class="date">CSS610.</h2><p class="date">Created: 2019-04-03 Wed 14:16</p>
+</section>
+
+
+
+<section>
+<section id="slide-org996f352">
+<h2 id="org996f352">Bibliographic Information</h2>
+
+<div class="figure">
+<p><img src="cover.jpg" alt="cover.jpg" height="20%," width="20%" />
+</p>
+<p><span class="figure-number">Figure 1: </span>Hedstrom, P. (2005). <i>Dissecting the Social: On the Principles of Analytical Sociology</i>. Cambridge: Cambridge University Press. <a href="https://doi.org/10.1017/CBO9780511488801">doi:10.1017/CBO9780511488801</a></p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org8c7b637">
+<h2 id="org8c7b637">Overview</h2>
+<ul>
+<li>An explanation of <b>Analytical Sociology</b>.</li>
+<li>A framework for social theory, with emphasis on mechanisms.</li>
+
+</ul>
+
+<blockquote nil>
+<p>
+"[the book discusses] some of the <i>basic principles of analytical sociology</i> and soughts to clarify what a <i>mechanism-based explanatory strategy</i> looks like" (p. 145).
+</p>
+</blockquote>
+
+
+</section>
+<section id="slide-orgc544458">
+<h3 id="orgc544458">Revisiting Coleman's Boat</h3>
+
+<div class="figure">
+<p><img src="boat.png" alt="boat.png" />
+</p>
+<p><span class="figure-number">Figure 2: </span>Coleman's micro-Macro Graph</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org9629c73">
+<h2 id="org9629c73">Table of Contents</h2>
+<ol>
+<li>The analytical Tradition in Sociology.</li>
+<li>Social Mechanism and Explanatory Theory.</li>
+<li>Action and Interaction.</li>
+<li>Social Interaction and Social Change.</li>
+<li>On causal Modelling.</li>
+<li>Quantitative Research, agent-based modelling and theories of the social.</li>
+<li>Coda.</li>
+
+</ol>
+
+
+</section>
+<section id="slide-orgc703783">
+<h3 id="orgc703783">Background</h3>
+<p>
+Three types of explanation.
+</p>
+
+<ol>
+<li>Covering Law.</li>
+<li>Statistical.</li>
+<li>Mechanism based</li>
+
+</ol>
+
+</section>
+<section id="slide-org7fc5a61">
+<h3 id="org7fc5a61">Foundations</h3>
+
+<div class="figure">
+<p><img src="dbo.png" alt="dbo.png" />
+</p>
+<p><span class="figure-number">Figure 3: </span>D.B.O. Theory</p>
+</div>
+
+
+</section>
+<section id="slide-orgc828d69">
+<h3 id="orgc828d69">Agent Based Models</h3>
+
+<div class="figure">
+<p><img src="abm.png" alt="abm.png" height="55%," width="55%%" />
+</p>
+<p><span class="figure-number">Figure 4: </span>Initial patterns of beliefs, desires and actions in a population of 2,500 virtual actors.</p>
+</div>
+
+
+</section>
+<section id="slide-org00a75e6">
+<h3 id="org00a75e6">Empirically Calibrated ABM</h3>
+
+<div class="figure">
+<p><img src="eca.png" alt="eca.png" height="65%," width="65%%" />
+</p>
+<p><span class="figure-number">Figure 5: </span>Unemployment levels and social interactions in low and high unemployment neighbourhoods in the Stockholm metropolitan area.</p>
+</div>
+
+
+
+
+</section>
+</section>
+<section>
+<section id="slide-orgff98254">
+<h2 id="orgff98254">Opinion on the book</h2>
+</section>
+</section>
+</div>
+</div>
+<script src="file:./reveal.js/lib/js/head.min.js"></script>
+<script src="file:./reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: true,
+center: true,
+slideNumber: 'c',
+rollingLinks: true,
+keyboard: true,
+overview: true,
+width: 1200,
+height: 800,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'file:./reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'file:./reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:./reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:./reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'file:./reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>

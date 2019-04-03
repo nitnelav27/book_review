@@ -1,0 +1,15 @@
+\begin{thebibliography}{}
+\newcommand{\enquote}[1]{``#1''}
+
+\bibitem[\protect\citeauthoryear{Durkheim}{Durkheim}{1986}]{durkheim1986}
+Durkheim, Emile. 1986.
+\newblock {\em Las reglas del M\'{e}todo Sociol\'{o}gico\/}.
+\newblock Fondo de Cultura Econ\'{o}mica.
+
+\bibitem[\protect\citeauthoryear{Hedstrom}{Hedstrom}{2005}]{hedstrom2005}
+Hedstrom, Peter. 2005.
+\newblock {\em Dissecting the Social: On the Principles of Analytical
+  Sociology\/}.
+\newblock Cambridge University Press.
+
+\end{thebibliography}

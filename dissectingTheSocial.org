@@ -1,0 +1,31 @@
+#+TITLE: "Dissecting the Social" by Peter Hedstrom
+#+AUTHOR: Review by Valentin Vergara
+#+DATE: CSS 610. \today
+
+#+LATEX_HEADER: \usepackage{natbib,float}
+#+OPTIONS: toc:nil num:nil
+
+* Purpose of the book.
+This book is intended as a brief explanation of analytical sociology, in a broader sense than a sociological theory. It is described as a framework for social theory, that put its emphasis on the mechanisms involved in social interactions, rather than in the macro or micro explanations of social phenomenon by themselves. According to citet:hedstrom2005: "[the book discusses] some of the /basic principles of analytical sociology/ and soughts to clarify what a /mechanism-based explanatory strategy/ looks like" (p. 145).
+
+* Structure.
+The book is divided in seven chapters, structured in such a way that in order to undertand any of them, you have to read the previous chapters. This means that in a certain way, Hedstrom /tells a story/, at first in chronological order, and then, for the last chapters, presents examples on how to explain Durkheim's social facts citep:durkheim1986 cobining theory and empirical insights in analytical sociology.
+
+The first chapter works as an introduction, with the academic motivation of the author, and also as an outline for the book. In the second chapter, we are presented with three types of explanations found in the social sciences literature: covering law, statistical, and mechanism-based explanations. After describing its main weaknesses and strenghts, it is explained why the author prefers to use mechanism based explanations, since agents are embedded in a social context that does not completely account for their actions. This means that they have agency and their behavior could be traced to some underlying social mechanism that combine micro and macro levels.
+
+In the third chapter, these ideas are expanded by the introduction of the DBO theory (for Desires, Beliefs and Opportunities). Basically, the idea is that observable actions are the outcomes of some combination of Desires, Beliefs and Opportunities, unique for every agents. However, the actions of agent $i$ have an effect on the actions of agent $j$, through element of the set $\{D_{j}, B_{j}, O_{j} \}$. This is a simple enough  *mechanism* that is useful to procede with the example of the use of analyticial sociology.
+
+Chapter Four develops a simple ABM that implements the mechanisms of the DBO theory. Then, following the same theoretical framework, a differential equation model is presented. In both examples, it is explained how the mechanisms described by the theory turn into emergent properties of the system. Explicitly: "This means that the relationship between the individual and the social is not transparent and linear, but complex and precarious" (p. 99).
+
+To interpret the results from solid theoretical and mechanism basis, Chapter Five presents some comments and suggestions on causal modelling. The idea here is that in order to correctly identify a causal relationship, besides a theory and a mechanism based model, some empirical link is needed to /ground/ the theory. Therefore, Chapter Six provides examples of empirical data  that follows everything presented in Chapters 3 and 4. Altough not explicitly, processes of verification and validation are discussed in the form of *empirically calibrated agent based models*.
+
+Finally, Chapter Seven serves as a summary of everything presented before and also, concluding remarks with the main idea of the book: *the importance of a mechanism based approach in sociology*.
+
+* My opinion on the book
+I found this book to be a very interesting introduction to analytical sociology. Usually, sociologist focus their writings on theory or methodology. It is refreshing to see an approach that take both into account, and also highlights computational models as valid methods for sociological research. Overall, it was a well written book, for people outside analytical sociology but without technical sacrifices that made it lose formality. One of the few things that I will improve of the book, is that Chapter 3 presents the DBO theory as something widely accepted and without much attention on how the theory came to be. It would be interesting to see in future editions of the book more detail on the theory and maybe further and deeper comparisons with other /popular/ theories in sociolloogy, such as Rational Choice.
+
+
+
+
+bibliographystyle:/home/vsvh/bibstyles/asr.bst
+bibliography:~/Dropbox/galactica.bib

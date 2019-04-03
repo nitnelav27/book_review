@@ -1,0 +1,75 @@
+#+TITLE: "Dissecting the Social" by Peter Hedstrom.
+#+AUTHOR: Review by Valentin Vergara
+#+DATE: CSS610.
+
+#+REVEAL_ROOT: file:./reveal.js/
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:t reveal_control:t
+#+OPTIONS: reveal_mathjax:t reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil
+
+
+
+#+REVEAL_THEME: solarized
+#+REVEAL_TRANS: linear
+
+
+
+* Bibliographic Information
+
+
+#+CAPTION: Hedstrom, P. (2005). /Dissecting the Social: On the Principles of Analytical Sociology/. Cambridge: Cambridge University Press. doi:10.1017/CBO9780511488801
+#+ATTR_HTML: :height 20%, :width 20%
+[[file:cover.jpg]]
+
+* Overview
+- An explanation of *Analytical Sociology*.
+- A framework for social theory, with emphasis on mechanisms.
+
+#+BEGIN_QUOTE
+"[the book discusses] some of the /basic principles of analytical sociology/ and soughts to clarify what a /mechanism-based explanatory strategy/ looks like" (p. 145).
+#+END_QUOTE
+
+
+** Revisiting Coleman's Boat
+#+CAPTION: Coleman's micro-Macro Graph
+[[file:boat.png]]
+
+* Table of Contents
+1. The analytical Tradition in Sociology.
+2. Social Mechanism and Explanatory Theory.
+3. Action and Interaction.
+4. Social Interaction and Social Change.
+5. On causal Modelling.
+6. Quantitative Research, agent-based modelling and theories of the social.
+7. Coda.
+
+
+** Background
+Three types of explanation.
+
+1. Covering Law.
+2. Statistical.
+3. Mechanism based
+
+** Foundations
+#+CAPTION: D.B.O. Theory
+[[file:dbo.png]]
+
+
+** Agent Based Models
+
+#+CAPTION: Initial patterns of beliefs, desires and actions in a population of 2,500 virtual actors.
+#+ATTR_HTML: :height 55%, :width 55%%
+[[file:abm.png]]
+
+
+** Empirically Calibrated ABM
+#+CAPTION: Unemployment levels and social interactions in low and high unemployment neighbourhoods in the Stockholm metropolitan area.
+#+ATTR_HTML: :height 65%, :width 65%%
+[[file:eca.png]]
+
+
+
+
+* Opinion on the book
