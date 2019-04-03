@@ -7,7 +7,7 @@
 #+OPTIONS: reveal_mathjax:t reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
 #+OPTIONS: reveal_width:1200 reveal_height:800
 #+OPTIONS: toc:nil timestamp:nil
-#+REVEAL_TITLE_SLIDE: <h1>%t</h1><h2>%a</h2>
+
 
 
 
@@ -73,4 +73,16 @@ Three types of explanation.
 
 
 
-* Opinion on the book
+* What I liked about the book
+- Well written.
+- Works as an introduction to analytical sociology.
+- Develops extensively an example.
+
+** What could be improved:
+
+- More background on DBO.
+- Theoretical alternatives.
+
+* Any questions?
+#+ATTR_HTML: :height 30%, :width 30%
+[[file:cover.jpg]]
