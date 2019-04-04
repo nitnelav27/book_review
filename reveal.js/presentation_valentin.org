@@ -2,7 +2,7 @@
 #+AUTHOR: Review by Valentin Vergara
 #+DATE: CSS610. April, 2019.
 
-#+REVEAL_ROOT: file:./
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
 #+OPTIONS: reveal_center:t reveal_progress:t reveal_history:t reveal_control:t
 #+OPTIONS: reveal_mathjax:t reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
 #+OPTIONS: reveal_width:1200 reveal_height:800
